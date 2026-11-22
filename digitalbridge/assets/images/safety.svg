@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="Shield protecting a lock">
+  <rect width="240" height="180" rx="16" fill="#e6f7f5"/>
+  <path d="M120 24l62 24v42c0 36-24 58-62 70-38-12-62-34-62-70V48z" fill="#0b2545"/>
+  <rect x="98" y="78" width="44" height="36" rx="6" fill="#5eead4"/>
+  <path d="M108 78v-10a12 12 0 0 1 24 0v10" fill="none" stroke="#5eead4" stroke-width="6"/>
+  <circle cx="120" cy="94" r="4" fill="#0b2545"/>
+</svg>

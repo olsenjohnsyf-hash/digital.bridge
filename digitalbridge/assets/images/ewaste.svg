@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="Phone, battery, and recycling arrows">
+  <rect width="240" height="180" rx="16" fill="#e8f4ea"/>
+  <rect x="46" y="40" width="52" height="92" rx="8" fill="#0b2545"/>
+  <rect x="54" y="50" width="36" height="64" rx="3" fill="#bbf7d0"/>
+  <rect x="118" y="70" width="70" height="36" rx="6" fill="#1e4d8c"/>
+  <rect x="128" y="80" width="28" height="16" rx="3" fill="#5eead4"/>
+  <path d="M70 150h100" stroke="#0f766e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M150 140l20 10-20 10" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Professional Ethics | DigitalBridge</title>
+  <meta name="description" content="How the DigitalBridge student website applies intellectual property, responsible AI use, privacy, cybersecurity, accuracy, accessibility, and accountability.">
+  <link rel="icon" href="../assets/icons/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body class="page-ethics">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html">
+        <img src="../assets/icons/logo.svg" alt="" width="42" height="42">
+        <span>DigitalBridge<small>Digital knowledge</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="digital-literacy.html">Digital Literacy</a></li>
+          <li><a href="online-safety.html">Online Safety</a></li>
+          <li><a href="e-waste.html">E-Waste</a></li>
+          <li><a href="community-resources.html">Resources</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="ethics.html" aria-current="page">Ethics</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="wrap">
+        <p class="crumbs"><a href="../index.html">Home</a> / Professional Ethics</p>
+        <h1>How this website applies professional ethics</h1>
+        <p class="lede">Each principle below is defined in plain language and then tied to a choice that is actually present in DigitalBridge. The class documentation records what the group still needs to verify.</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrap">
+        <article class="principle">
+          <h2>Intellectual property rights</h2>
+          <div>
+            <h3>Meaning</h3>
+            <p>Creators and publishers control how their writing, images, and code may be copied. Using a source means giving credit and staying within the license or a permitted quotation. It does not mean pasting an entire lesson or template and claiming it as original.</p>
+            <h3>On this website</h3>
+            <p>Lesson text was written for this project. Illustrations and the logo are original SVG drawings in the assets folder, so there is no stock-photo license to display. Short factual statements from UNESCO, CISA, EPA, ITU, and UNITAR are paraphrased and cited on the References page. External sites open on their own pages instead of being copied into this project.</p>
+          </div>
+        </article>
+
+        <article class="principle">
+          <h2>Responsible AI use</h2>
+          <div>
+            <h3>Meaning</h3>
+            <p>An AI tool can help draft, organize, or check code. The people submitting the work remain responsible for facts, citations, and anything they tell an instructor. AI output is not automatically a verified source.</p>
+            <h3>On this website</h3>
+            <p>An AI coding assistant in Cursor was used to help build pages, styles, and the quiz. Educational claims that remain on the site were checked against the organization pages listed in References, including the e-waste figures from ITU and UNITAR. The file <code>documentation/AI-USE-DISCLOSURE.md</code> explains that help and leaves space for the group to record who reviewed the site and what they changed. Do not tell the panel that every sentence was independently researched unless your group actually did that review.</p>
+          </div>
+        </article>
+
+        <article class="principle">
+          <h2>Data privacy</h2>
+          <div>
+            <h3>Meaning</h3>
+            <p>Collect only information you need, tell people why, and do not ask for sensitive data in a school project that cannot protect it.</p>
+            <h3>On this website</h3>
+            <p>There is no account, newsletter, comment box, or contact form. The quiz does not ask for a name, email address, password, or location. The score lives in the page's memory until you leave or choose Try again. It is not written to localStorage and it is not sent to a server. Pages do not load third-party advertising or analytics scripts.</p>
+          </div>
+        </article>
+
+        <article class="principle">
+          <h2>Cybersecurity</h2>
+          <div>
+            <h3>Meaning</h3>
+            <p>Cybersecurity protects systems and people from unauthorized access, harmful software, and deception. An educational site should not become a place that collects secrets or hosts an attack demo.</p>
+            <h3>On this website</h3>
+            <p>The only scripts are <code>js/main.js</code> for the menu and <code>js/quiz.js</code> for the quiz. The quiz builds answers with DOM methods and compares a selected choice to an answer index. External links use <code>rel="noopener noreferrer"</code>. The safety page describes phishing in words and does not provide a fake login. No password field exists anywhere in the project.</p>
+          </div>
+        </article>
+
+        <article class="principle">
+          <h2>Accuracy and honesty</h2>
+          <div>
+            <h3>Meaning</h3>
+            <p>Say what you know, name the source, and avoid invented statistics, organizations, addresses, and partnerships.</p>
+            <h3>On this website</h3>
+            <p>The 62 million tonnes figure and the 22.3 percent documented recycling figure are global 2022 results from the Global E-waste Monitor 2024, not local measurements. Battery and donation steps follow the EPA electronics page. The site does not invent a community repair shop or a drop-off address. Resource cards name the publisher. If a link breaks after submission, the honest fix is to update it, not to leave a dead address unlabeled.</p>
+          </div>
+        </article>
+
+        <article class="principle">
+          <h2>Accessibility</h2>
+          <div>
+            <h3>Meaning</h3>
+            <p>People should be able to use the site with a keyboard, a phone, a screen reader, or without relying on color alone. The W3C Web Accessibility Initiative describes accessibility as making the web usable by people with disabilities.</p>
+            <h3>On this website</h3>
+            <p>Pages use one <code>h1</code>, real buttons, a skip link, and visible focus outlines. The mobile menu exposes its open state with <code>aria-expanded</code>. Quiz feedback says "Correct" or "Incorrect" in text, not only with color. Meaningful images have alternative text. Decorative logo images in the header use an empty alt because the adjacent text already says DigitalBridge. Body text stays near a comfortable reading size, and layouts collapse to one column on small screens.</p>
+          </div>
+        </article>
+
+        <article class="principle">
+          <h2>Accountability</h2>
+          <div>
+            <h3>Meaning</h3>
+            <p>A group should be able to explain who did the work, how the site runs, and which parts an assistant produced.</p>
+            <h3>On this website</h3>
+            <p>HTML, CSS, and JavaScript are separated into clear folders. <code>README.md</code> explains how to open the site. <code>documentation/INDIVIDUAL-CONTRIBUTION-REPORT.md</code> is a blank template. Fill it with real names and real tasks before the presentation. Do not leave the placeholders in place and describe them as finished contributions.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>DigitalBridge</h2>
+        <p>Ethics is shown in the site's behavior, not only in this explanation.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="digital-literacy.html">Digital Literacy</a></li>
+          <li><a href="online-safety.html">Online Safety</a></li>
+          <li><a href="quiz.html">Practice Quiz</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Project</h2>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="community-resources.html">Community Resources</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap legal">
+      <p>© 2026 DigitalBridge student project. Class files live in the documentation folder beside this website.</p>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>

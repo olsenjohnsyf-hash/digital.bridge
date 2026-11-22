@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practice Quiz | DigitalBridge</title>
+  <meta name="description" content="A ten-question digital literacy and online safety quiz with feedback, explanations, a score, and a retry option. No account required.">
+  <link rel="icon" href="../assets/icons/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body class="page-quiz">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html">
+        <img src="../assets/icons/logo.svg" alt="" width="42" height="42">
+        <span>DigitalBridge<small>Digital knowledge</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="digital-literacy.html">Digital Literacy</a></li>
+          <li><a href="online-safety.html">Online Safety</a></li>
+          <li><a href="e-waste.html">E-Waste</a></li>
+          <li><a href="community-resources.html">Resources</a></li>
+          <li><a href="quiz.html" aria-current="page">Quiz</a></li>
+          <li><a href="ethics.html">Ethics</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="wrap">
+        <p class="crumbs"><a href="../index.html">Home</a> / Practice Quiz</p>
+        <h1>Digital literacy practice quiz</h1>
+        <p class="lede">Answer ten multiple-choice questions about computers, information, online safety, and responsible technology use. Check each answer, read the explanation, then see your score. You can try again. The quiz does not ask who you are.</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrap quiz-shell">
+        <div id="quiz-app" aria-live="polite"></div>
+        <noscript>
+          <p class="card">Turn on JavaScript to use the quiz. The lesson pages still work without it.</p>
+        </noscript>
+        <p class="note">Need a refresher first? Read <a href="digital-literacy.html">Digital Literacy</a> and <a href="online-safety.html">Online Safety</a>. The answer key lives in <code>js/quiz.js</code> because this project has no server. The goal is practice, not a secret exam.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>DigitalBridge</h2>
+        <p>The score is calculated in your browser and disappears when you leave or restart the quiz.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="digital-literacy.html">Digital Literacy</a></li>
+          <li><a href="online-safety.html">Online Safety</a></li>
+          <li><a href="e-waste.html">E-Waste Awareness</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Project</h2>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="ethics.html">Professional Ethics</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap legal">
+      <p>© 2026 DigitalBridge student project. A quiz score is not a certificate.</p>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>
